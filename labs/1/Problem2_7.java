@@ -13,7 +13,7 @@ public class Problem2_7 {
 		     // Number of minutes in a year
 		    int year = minutes / 525600;
 		    int day = minutes / 1440;
-		    int remainingMinutes = day % 525600;
+		    int remainingMinutes = day % 365; // JA: 365
 
 
 		    System.out.println(minutes + " minutes is " + year + " years and "  +  remainingMinutes + " days ");
