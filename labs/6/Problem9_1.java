@@ -1,4 +1,4 @@
-public class Problem9_1 {
+public class Rectangle {
   
 
   private double width; 
