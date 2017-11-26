@@ -17,7 +17,7 @@ public class Problem11_1 {
 			System.out.print("Is the triangle filled (true / false)? ");
 			boolean filled = input.nextBoolean();
 
-			Triangle triangle = new Triangle(side1, side2, side3);
+			Triangle triangle = new Triangle(side1, side2, side3); // JA: Where is the Traingle class defined?
 			triangle.setColor(color);
 			triangle.setFilled(filled);
 
